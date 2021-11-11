@@ -17,15 +17,12 @@ public class Recarga {
 
 	private String numero;
 
-	private Operadora operadora;
-
 	@Deprecated
 	public Recarga() {
 	}
 
-	public Recarga(BigDecimal valor, String numero, Operadora operadora) {
+	public Recarga(BigDecimal valor, String numero) {
 		this.valor = valor;
 		this.numero = numero;
-		this.operadora = operadora;
 	}
 }
